@@ -1,8 +1,6 @@
 import random
-
 choices = ["Rock", "Paper", "Scissors"]
 score = {"Wins": 0, "Losses": 0, "Draws": 0}
-
 while True:
     user_choice_str = input("What do you choose? Type 'Rock', 'Paper', or 'Scissors'.\n").capitalize()
     user_choice = choices.index(user_choice_str) if user_choice_str in choices else -1
