@@ -1,10 +1,8 @@
 def simple_calculator():
     print("Welcome to the Simple Calculator!")
 
-
     num1 = float(input("Enter the first number: "))
     num2 = float(input("Enter the second number: "))
-
 
     print("\nChoose an operation:")
     print("1. Addition (+)")
@@ -34,6 +32,8 @@ def simple_calculator():
         print("Invalid choice! Please choose a number from 1 to 4.")
         return
 
+   
     print(f"\n{operation} Result: {num1} {operation_choice} {num2} = {result}")
 
 
+simple_calculator()
